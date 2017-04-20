@@ -1,13 +1,14 @@
-React Search App
-A simple React search app which:
+**React Search App**
+
+> A simple React search app which:
 
 1. Fetches the product JSON data using NODE API.
 
-2.Takes the user input from the search box and perform a search on the product JSON data and display the valid search results in the results section.
+2. Takes the user input from the search box and perform a search on the product JSON data and display the valid search results in the results section.
 
-2.Filters - Relevance, Popular, Low Price, High Price
+3. Filters - Relevance, Popular, Low Price, High Price
 
-3. Add to Compare feature
+4. Compare products
 
 
 Steps to run the project locally:
