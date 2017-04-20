@@ -1,0 +1,62 @@
+{
+  "name": "react-search-app",
+  "version": "0.0.0",
+  "dependencies": {
+    "babelify": "^6.1.3",
+    "browserify": "latest",
+    "browserify-shim": "^3.8.0",
+    "classnames": "^2.2.5",
+    "cookie-parser": "^1.4.3",
+    "del": "~0.1.3",
+    "express": "^4.15.2",
+    "gulp": ">=3.8.8",
+    "gulp-bower": "0.0.6",
+    "gulp-cache": "~0.2.4",
+    "gulp-imagemin": "latest",
+    "gulp-less": "^3.3.0",
+    "gulp-load-plugins": "~0.7.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-rename": "^1.2.2",
+    "gulp-size": "~1.1.0",
+    "gulp-strip-debug": "^1.0.2",
+    "gulp-uglify": "^1.0.2",
+    "gulp-useref": "~0.4.4",
+    "gulp-util": "~3.0.1",
+    "main-bower-files": "~2.6.2",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-tools": "latest",
+    "reactify": "latest",
+    "strip-debug": "^1.0.1",
+    "vinyl-source-stream": "^1.0.0"
+  },
+  "devDependencies": {
+    "browser-sync": "latest",
+    "watchify": "~2.1"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "start": "gulp build;node server.js"
+  },
+  "browserify": {
+    "transform": [
+      "browserify-shim",
+      [
+        "babelify",
+        {
+          "ignore": [
+            "bower_components"
+          ]
+        }
+      ]
+    ]
+  },
+  "browser": {
+    "jquery": "./app/bower_components/jquery/dist/jquery.js"
+  },
+  "browserify-shim": {
+    "jquery": "$"
+  }
+}

@@ -1,0 +1,20 @@
+.rating {
+	span {
+	  display: inline-block;
+	  position: relative;
+	  width: 1.1em;
+	}
+	.active:before {
+		color: #FFD700;
+		content: "\2605";
+		position: absolute;
+	}
+	.half-active:before{
+		color: #FFD700;
+		content: "\2605";
+		position: absolute;
+	   	left: 0;
+	    right: 55%;
+	    overflow: hidden;
+	}
+}
