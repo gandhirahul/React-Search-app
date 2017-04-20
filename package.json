@@ -28,9 +28,7 @@
     "react-tools": "latest",
     "reactify": "latest",
     "strip-debug": "^1.0.1",
-    "vinyl-source-stream": "^1.0.0"
-  },
-  "devDependencies": {
+    "vinyl-source-stream": "^1.0.0",
     "browser-sync": "latest",
     "watchify": "~2.1"
   },

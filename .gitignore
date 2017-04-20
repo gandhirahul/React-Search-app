@@ -3,3 +3,4 @@
 .less-cache/
 /gulp-cache/
 /bower_components/
+npm-*.log
